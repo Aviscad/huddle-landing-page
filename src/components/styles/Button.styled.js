@@ -6,9 +6,9 @@ export const Button = styled.button`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   font-size: 16px;
-  font-weigth: 700;
+  font-weight: 700;
   padding: 15px 60px;
-  backgroud-color: ${({ bg }) => bg || "#fff"};
+  background-color: ${({ bg }) => bg || "#fff"};
   color: ${({ color }) => color || "#333"};
 
   &:hover {
